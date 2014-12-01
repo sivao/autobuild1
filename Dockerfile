@@ -11,7 +11,7 @@
 # installing JDK
 #RUN apt-get install -y openjdk-7-jdk
 
-	ADD dockertest.jar /data/dockertest.jar
+	ADD . /data/dockertest.jar
 #ADD dockertest.jar /
 
 #CMD ["java", "-jar", "dockertest.jar"]
